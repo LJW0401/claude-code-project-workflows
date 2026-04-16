@@ -13,6 +13,8 @@ SKILLS_DIR="$(dirname "$SCRIPT_DIR")"
 SKILLS=(
   requirements-discuss
   requirements-review
+  arch-design
+  arch-review
   dev-plan
   dev-plan-review
   dev-execute

@@ -18,6 +18,8 @@ SKILLS=(
   dev-plan
   dev-plan-review
   dev-execute
+  test-write
+  bug-fix
 )
 
 # --- 颜色 ---

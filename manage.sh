@@ -20,6 +20,7 @@ SKILLS=(
   dev-execute
   test-write
   bug-fix
+  quick-feature
 )
 
 # --- 颜色 ---

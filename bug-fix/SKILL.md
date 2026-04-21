@@ -1,7 +1,7 @@
 ---
 name: bug-fix
 description: 规范化修复已交付代码中发现的 bug，流程为"复现 → 定位根因 → 先写失败的回归测试 → 修复 → 跑全量测试 → 记录 learnings → 提交"。当用户报告一个已有的 bug、粘贴报错、描述异常行为、或手动测试发现功能不符预期时使用。
-argument-hint: [bug 描述或报错信息]  不传则询问用户
+argument-hint: "[bug 描述或报错信息]  不传则询问用户"
 allowed-tools: Read Write Edit Bash Glob Grep AskUserQuestion
 ---
 

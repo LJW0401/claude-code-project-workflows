@@ -1,7 +1,7 @@
 ---
 name: test-write
 description: 为指定的已有代码补充测试（Smoke + 异常/边界测试），适用于遗留代码补测或流水线外紧急 patch 的测试补齐。当用户需要给一段已有代码写测试、补测试覆盖、或给未走完整开发流程的代码配套测试时使用。
-argument-hint: [目标文件路径或模块路径]  不传则询问用户
+argument-hint: "[目标文件路径或模块路径]  不传则询问用户"
 allowed-tools: Read Write Edit Bash Glob Grep AskUserQuestion
 ---
 

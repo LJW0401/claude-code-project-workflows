@@ -1,7 +1,7 @@
 ---
 name: quick-feature
 description: 为已有项目快速添加小功能，跳过完整流水线的需求/架构/开发计划文档，但保留测试覆盖、安全门控、分支管理、learnings 反思等质量要素。当用户想给现有项目加一个小功能、做一个小改进、新增一个 API/命令/页面但不想走完整流水线时使用。
-argument-hint: [功能描述]  不传则询问用户
+argument-hint: "[功能描述]  不传则询问用户"
 allowed-tools: Read Write Edit Bash Glob Grep AskUserQuestion
 ---
 

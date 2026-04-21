@@ -1,7 +1,7 @@
 ---
 name: arch-design
 description: 基于已审核的需求文档，与用户讨论并设计项目架构，产出架构设计文档。当需求文档已审核通过，需要进行架构设计时使用。
-argument-hint: [--lite] [需求文档路径，默认 project_plan/requirements.md]  --lite 为轻量模式，仅产出技术栈、模块划分、安全门控，适合小项目
+argument-hint: "[--lite] [需求文档路径，默认 project_plan/requirements.md]  --lite 为轻量模式，仅产出技术栈、模块划分、安全门控，适合小项目"
 allowed-tools: Read Write Edit Bash Glob Grep AskUserQuestion
 ---
 

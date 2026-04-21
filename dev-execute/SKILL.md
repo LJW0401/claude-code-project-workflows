@@ -1,7 +1,7 @@
 ---
 name: dev-execute
 description: 按照开发方案文档分阶段执行开发，逐个完成工作项，通过集成门控和安全门控验证，每完成一个阶段自动更新文档状态。当开发方案已审核通过，准备开始编码实现时使用。
-argument-hint: [--auto] [阶段编号]  --auto 为自动模式，跳过确认自动执行所有阶段并在每阶段完成后自动提交代码
+argument-hint: "[--auto] [阶段编号]  --auto 为自动模式，跳过确认自动执行所有阶段并在每阶段完成后自动提交代码"
 allowed-tools: Read Write Edit Bash Glob Grep AskUserQuestion Agent
 ---
 

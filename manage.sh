@@ -11,6 +11,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_NAME="$(basename "$SCRIPT_DIR")"
 SKILLS_DIR="$(dirname "$SCRIPT_DIR")"
 SKILLS=(
+  requirements-breakdown
   requirements-discuss
   requirements-review
   arch-design
